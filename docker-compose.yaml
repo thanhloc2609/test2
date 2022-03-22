@@ -1,0 +1,10 @@
+version: "3"
+services:
+  cus-nginx:
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - /var/lib/jenkins/workspace/test2/mycode:/var/www/html
+    ports:
+      - 80:80
