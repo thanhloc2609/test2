@@ -8,5 +8,5 @@ services:
   nginx-host:
     image: cus-nginx
     container_name: cus-nginx
-      ports:
-        - 80:80
+    ports:
+      - 80:80
