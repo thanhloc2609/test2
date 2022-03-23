@@ -5,6 +5,6 @@ services:
       context: .
       dockerfile: dockerfile
     volumes:
-      - /var/lib/jenkins/workspace/test2/mycode:/var/www/html
+      - /var/lib/jenkins/workspace/test2/mycode:/nginx-config/www
     ports:
       - 80:80
